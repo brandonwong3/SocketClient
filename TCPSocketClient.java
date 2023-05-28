@@ -1,8 +1,3 @@
-// Write a TCP Socket Client Java app that will:
-// - Connect to a server (first command-line arg) to port (second command-line arg)
-// - Optionally take any input passed on the command line (third and subsequent command-line args), and send it down the socket. Note: this is not a requirement. Only two arguments are required.
-// - Capture any output from the socket, and print this out to the console.
-
 import java.io.*;
 import java.net.Socket;
 import java.util.stream.Collectors;
